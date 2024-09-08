@@ -21,3 +21,7 @@ To deploy helm chart ,open the terminal and run:
 ```
 $ helm install app Chart-Kar/
 ```
+You can change deploying image and number of replicas,open the terminal and run:
+```
+$ helm install app Chart-Kar/ --set container.image=tomcat:latest --set replicaCount=3
+```
