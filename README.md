@@ -27,3 +27,7 @@ You can change deploying image and number of replicas,open the terminal and run:
 ```
 $ helm install app1 Chart-Kar/ --set container.image=tomcat:latest --set replicaCount=3
 ```
+To show list of deploys,open the terminal and run:
+```
+$ helm list
+```
