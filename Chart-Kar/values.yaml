@@ -1,0 +1,5 @@
+container:
+ image1: tomcat:latest
+ image2: nginx:latest
+
+ replicaCount: 2

@@ -1,0 +1,4 @@
+apiVersion : v2
+name       : App-HelmChart
+description: My helm chart for Kubernetes
+version    : 1.0.1
